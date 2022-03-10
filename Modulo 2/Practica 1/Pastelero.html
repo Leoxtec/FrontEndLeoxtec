@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout y Rutas</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<div class="whole-page" >
+		<!--header-->
+		<div class="ui top attached demo menu header" >
+			<center><img src="img/Logo.JPG" height="60px" alt=""></center>
+		</div>
+		<!--sidebar-->
+		<sui-sidebar-sibling  [isDimmedWhenVisible]="false">
+	
+				<div class="sidebar">
+					<br><br><br>
+					<a  href="index.html">Inicio</a>
+					<a href="Catalogo.html">Catálogo</a>
+					<a href="Pedidos.html">Pedidos</a>
+					<a href="Listadopedidos.html">Listado Pedidos</a>
+					<a class="active"  href="Pastelero.html">Pedidos a Realizar</a>
+				  </div>
+		
+				  <div class="content">
+            <h1>Lista de pedidos</h1>
+
+            <table id="mitabla">
+
+              <thead class="cabecera">
+              <tr class="rojo">
+              <td class="bajo"> Cliente ID</td>
+              <td class="bajo"> Pastel</td>
+              <td class="medio"> Cantidad</td>
+              <td class="alto"> Sabor </td>
+              <td class="alto"> Adornos </td>
+              <td class="alto"> Relleno </td>
+              <td class="c">Estado del pedido</td>
+
+
+              </tr>
+              </thead>
+              
+              <tbody class="cuerpo">
+              <tr>
+              <td class="a"> lemento A </td>
+              <td class="a"> lemento A </td>
+              <td class="b"> lemento B </td>
+              <td class="c"> lemento C </td>
+              <td class="b"> emento BB </td>
+              <td class="c"> emento CC </td>
+              <td class="c"><button>pedido Realizado</button> </td>
+
+              </tr>
+              
+              <tr>
+              <td class="a"> emento AA </td>
+              <td class="a"> emento AA </td>
+              <td class="b"> emento BB </td>
+              <td class="c"> emento CC </td>
+              <td class="b"> emento BB </td>
+              <td class="c"> emento CC </td>
+              <td class="c"><button>pedido Realizado</button> </td>
+
+              </tr>
+
+              <tr>
+              <td class="a"> emento AA </td>
+              <td class="a"> emento AA </td>
+              <td class="b"> emento BB </td>
+              <td class="c"> emento CC </td>
+              <td class="b"> emento BB </td>
+              <td class="c"> emento CC </td>
+              <td class="c"><button>pedido Realizado</button> </td>
+
+              </tr>
+
+              <tr>
+              <td class="a"> emento AA </td>
+              <td class="a"> emento AA </td>
+              <td class="b"> emento BB </td>
+              <td class="c"> emento CC </td>
+              <td class="b"> emento BB </td>
+              <td class="c"> emento CC </td>
+              <td class="c"><button>pedido Realizado</button> </td>
+
+              </tr>
+
+              <tr>
+              <td class="a"> emento AA </td>
+              <td class="a"> emento AA </td>
+              <td class="b"> emento BB </td>
+              <td class="c"> emento CC </td>
+              <td class="b"> emento BB </td>
+              <td class="c"> emento CC </td>
+              <td class="c"><button>pedido Realizado</button> </td>
+
+              </tr>
+
+
+              <tr>
+              <td class="a"> emento AA </td>
+              <td class="a"> emento AA </td>
+              <td class="b"> emento BB </td>
+              <td class="c"> emento CC </td>
+              <td class="b"> emento BB </td>
+              <td class="c"> emento CC </td>
+              <td class="c"><button>pedido Realizado</button> </td>
+
+              </tr>
+
+
+              <tr>
+              <td class="a"> emento AA </td>
+              <td class="a"> emento AA </td>
+              <td class="b"> emento BB </td>
+              <td class="c"> emento CC </td>
+              <td class="b"> emento BB </td>
+              <td class="c"> emento CC </td>
+              <td class="c"><button>pedido Realizado</button> </td>
+              </tr>
+              
+              </tbody>
+              <tfoot class="pie">
+              <tr>
+              <td class="a"> emento AA </td>
+              <td class="aaa"> emento AAA </td>
+              <td class="bbb"> emento BBB </td>
+              <td class="ccc"> emento CCC </td>
+              <td class="b"> emento BB </td>
+              <td class="c"> emento CC </td>
+              </tr>
+              </tfoot>
+              
+              </table>
+
+              <footer >
+                <p>Gaona 456 fraccion nueva vida cp.78965</p>
+                <p>Salamanca, España, tel.89763214567</p>
+              </footer>
+	</div>
+			
+
+		</sui-sidebar-sibling>
+	</div>
+</body>
+
+</html>
